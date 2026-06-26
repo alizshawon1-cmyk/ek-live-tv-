@@ -2,17 +2,22 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>SHAWON PLAY - 100+ Live TV</title>
+    
+    <!-- Video.js CSS -->
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    
+    <!-- Video.js JS & HLS Support -->
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script src="https://unpkg.com/@videojs/http-streaming@3.7.0/dist/videojs-http-streaming.min.js"></script>
 
     <style>
-        body { background: #0d0f1a; color: #fff; font-family: sans-serif; margin: 0; display: flex; height: 100vh; overflow: hidden; }
+        body { background: #0d0f1a; color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; display: flex; height: 100vh; overflow: hidden; }
         #player-area { flex: 2; padding: 20px; display: flex; flex-direction: column; }
         #my-video { width: 100%; height: 70vh; background: #000; border-radius: 8px; }
         #status { margin-top: 15px; color: #ff4d6d; font-weight: bold; font-size: 20px; }
-        #sidebar { flex: 1; overflow-y: auto; padding: 20px; background: #0d0f1a; }
+        #sidebar { flex: 1; overflow-y: auto; padding: 20px; background: #0d0f1a; border-left: 1px solid #333; }
         #grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
         .channel-btn { background: #1a1d2e; border: 1px solid #333; padding: 15px 5px; text-align: center; border-radius: 6px; cursor: pointer; transition: 0.3s; }
         .channel-btn:hover { background: #252a41; border-color: #ff4d6d; }
@@ -23,7 +28,7 @@
 <body>
 
 <div id="player-area">
-    <video id="my-video" class="video-js vjs-big-play-centered" controls></video>
+    <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto"></video>
     <div id="status">চ্যানেল নির্বাচন করুন</div>
 </div>
 
@@ -34,15 +39,13 @@
 <script>
     const channels = [
         { name: "SHAWON PLAY LIVE", url: "http://114.130.57.233:8080/manik-kutta-moharaza-kuttar-baccha-t.me/tvserverhd/video.m3u8?token=manik-kuttar-baccha-t.me/tvserverhd", group: "Bangladesh" },
+        { name: "AndFlix HD", url: "http://212.102.34.8:9080/AndFlixHD/video.m3u8", group: "Movies" },
+        { name: "FOX", url: "http://84.17.50.102/fox/index.m3u8", group: "Entertainment" },
         { name: "BTV", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8", group: "Bangladesh" },
         { name: "T Sports", url: "https://trs1.aynaott.com/tsports/index.m3u8", group: "Bangladesh" },
         { name: "Somoy TV", url: "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8", group: "Bangladesh" },
         { name: "Jamuna TV", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8", group: "Bangladesh" },
-        { name: "Ekattor HD", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8", group: "Bangladesh" },
-        { name: "AndFlix HD", url: "http://212.102.34.8:9080/AndFlixHD/video.m3u8", group: "Movies" },
-        { name: "FOX", url: "http://84.17.50.102/fox/index.m3u8", group: "Entertainment" },
-        
-        // ... (আপনার বাকি চ্যানেলগুলো এখানে আগের মতোই আছে)
+        { name: "Ekattor HD", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8", group: "Bangladesh" }
     ];
 
     const player = videojs('my-video');
@@ -52,9 +55,10 @@
     channels.forEach(ch => {
         const btn = document.createElement('div');
         btn.className = 'channel-btn';
-        btn.innerHTML = `<h4>${ch.name}</h4><p>SHAWON PLAY</p>`;
+        btn.innerHTML = `<h4>${ch.name}</h4><p>${ch.group}</p>`;
         btn.onclick = () => {
             player.src({ src: ch.url, type: 'application/x-mpegURL' });
+            player.load();
             player.play();
             status.innerText = "এখন চলছে: " + ch.name;
         };
