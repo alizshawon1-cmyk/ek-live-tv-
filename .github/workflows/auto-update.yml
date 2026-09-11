@@ -2,7 +2,7 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর পর নিজে থেকে টোকেন আপডেট হবে
+    - cron: '*/30 * * * *' # প্রতি ৩০ মিনিট পর পর নিজে থেকে টোকেন আপডেট হবে
   workflow_dispatch:
 
 jobs:
@@ -25,5 +25,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add playlist.m3u
-          git commit -m "Auto-update m3u playlist tokens" || exit 0
+          git commit -m "Auto-update m3u playlist tokens every 30 mins" || exit 0
           git push
