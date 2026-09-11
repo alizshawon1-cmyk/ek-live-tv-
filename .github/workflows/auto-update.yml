@@ -23,7 +23,7 @@ jobs:
 
       - name: Run script
         run: |
-          python generate_local.py
+          python generate.py
 
       - name: Commit and push changes
         run: |
