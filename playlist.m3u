@@ -43,6 +43,8 @@ http://jatrapala.com:8083/Feedget/rtv_nk_34/index.m3u8?token=d8c5ae2cf1512687ba5
 http://jatrapala.com:8083/ETV/index.m3u8?token=3dc7a6df9be7e23f856aa1bd35075ffa22e5739e-a5398d499e83fa230e99060800491617-1789127984-1789117184
 #EXTINF:-1,SA TV
 http://jatrapala.com:8083/SATV/index.m3u8?token=39e9507132a78401863d4b2b18d69aac4d788fbe-c23ddc0f31822786445df2f56e3f052d-1789127984-1789117184
+#EXTINF:-1,Enterr10 Bangla
+http://jatrapala.com:8083/enterr10-bangla/index.m3u8?token=87587962184a9a00572ee1fce36441c675ced8e7-b7c80a86b13710988e824609766ec461-1789128435-1789117635
 #EXTINF:-1,Colors Bangla
 http://jatrapala.com:8083/colors-bangla/index.m3u8?token=658ec406e2438ef29bab72eb716c6ec5da1604e8-97f002609cdf10112108ec46e4004c08-1789127984-1789117184
 #EXTINF:-1,Zee Bangla

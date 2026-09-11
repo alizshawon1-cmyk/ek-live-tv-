@@ -1,7 +1,7 @@
 import re
 import requests
 
-# সমস্ত চ্যানেলের একদম সঠিক এবং পরীক্ষিত পেজ লিঙ্কের তালিকা
+# সব চ্যানেলের একদম নিখুঁত এবং পরীক্ষিত পেজ লিঙ্কের চূড়ান্ত তালিকা
 channels_info = [
     {"name": "T Sports HD", "page_url": "http://jatrapala.com/live-tv/tsports.html"},
     {"name": "Somoy TV", "page_url": "http://jatrapala.com/live-tv/somoy-tv.html"},
@@ -25,7 +25,7 @@ channels_info = [
     {"name": "RTV", "page_url": "http://jatrapala.com/live-tv/rtv.html"},
     {"name": "Ekushey TV", "page_url": "http://jatrapala.com/live-tv/etv.html"},
     {"name": "SA TV", "page_url": "http://jatrapala.com/live-tv/satv.html"},
-    {"name": "Enterr10 Bangla", "page_url": "http://jatrapala.com/live-tv/enterr10-bangla.html"},
+    {"name": "Enterr10 Bangla", "page_url": "http://jatrapala.com/live-tv/enterr10.html"},
     {"name": "Colors Bangla", "page_url": "http://jatrapala.com/live-tv/colors-bangla.html"},
     {"name": "Zee Bangla", "page_url": "http://jatrapala.com/live-tv/zee-bangla.html"},
     {"name": "Star Jalsha HD", "page_url": "http://jatrapala.com/live-tv/star-jalsha.html"},
