@@ -1,4 +1,5 @@
 @echo off
+:loop
 echo Running Python script to generate playlist...
 python generate.py
 
@@ -20,4 +21,7 @@ git push origin main
 
 echo.
 echo Done! All tasks completed successfully.
-pause
+
+:: ৩০ মিনিট পর পর চলার জন্য সময় (১৮০০ সেকেন্ড = ৩০ মিনিট)
+timeout /t 1800 /nobreak > nul
+goto loop
