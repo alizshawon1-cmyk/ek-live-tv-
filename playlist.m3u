@@ -1,5 +1,4 @@
 #EXTM3U
-<<<<<<< HEAD
 #EXTINF:-1,T Sports HD
 http://jatrapala.com:8083/TSportsHD/index.m3u8?token=3479cdf1d21bc40ffa828283f513ff52dcbe9121-280f8f09bf9f6d749be34e9c5f3ea7ff-1789139453-1789128653
 #EXTINF:-1,Somoy TV
@@ -100,5 +99,3 @@ http://jatrapala.com:8083/StarSports1HD/index.m3u8?token=760d8de1e54906741d8ca49
 http://jatrapala.com:8083/StarSports2HD/index.m3u8?token=bf7d92db4fd1c880301df0e7bb9d863aaefb4d01-4d621209c29012b622cd03054ff33e4b-1789139458-1789128658
 #EXTINF:-1,Ten Cricket
 http://jatrapala.com:8083/TenCricket/index.m3u8?token=96d93f63a6117d61bf46bd0a1eab8f5636efdd3b-3057376a1e78964a984d0543b9f07288-1789139458-1789128658
-=======
->>>>>>> 8ba8b5fba2c1b2228eb19df61ea146a13a003408
