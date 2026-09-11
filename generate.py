@@ -1,7 +1,7 @@
 import re
 import requests
 
-# সঠিক ও পরীক্ষিত পেজ লিঙ্কের সম্পূর্ণ তালিকা
+# সমস্ত চ্যানেলের একদম সঠিক এবং পরীক্ষিত পেজ লিঙ্কের তালিকা
 channels_info = [
     {"name": "T Sports HD", "page_url": "http://jatrapala.com/live-tv/tsports.html"},
     {"name": "Somoy TV", "page_url": "http://jatrapala.com/live-tv/somoy-tv.html"},
@@ -17,8 +17,8 @@ channels_info = [
     {"name": "ATN Bangla", "page_url": "http://jatrapala.com/live-tv/atn-bangla.html"},
     {"name": "ATN News", "page_url": "http://jatrapala.com/live-tv/atnnews.html"},
     {"name": "Bangla TV", "page_url": "http://jatrapala.com/live-tv/bangla-tv.html"},
-    {"name": "Bangla Vision", "page_url": "http://jatrapala.com/live-tv/bangla-vision.html"},
-    {"name": "Boishakhi TV", "page_url": "http://jatrapala.com/live-tv/boishakhi-tv.html"},
+    {"name": "Bangla Vision", "page_url": "http://jatrapala.com/live-tv/banglavision.html"},
+    {"name": "Boishakhi TV", "page_url": "http://jatrapala.com/live-tv/boishakhitv.html"},
     {"name": "Channel 9", "page_url": "http://jatrapala.com/live-tv/channel-9.html"},
     {"name": "Maasranga TV", "page_url": "http://jatrapala.com/live-tv/maasranga.html"},
     {"name": "NTV", "page_url": "http://jatrapala.com/live-tv/ntv.html"},
@@ -45,8 +45,8 @@ channels_info = [
     {"name": "Sony Ten 1", "page_url": "http://jatrapala.com/live-tv/sony-ten-1.html"},
     {"name": "Sony Ten 2", "page_url": "http://jatrapala.com/live-tv/sony-ten-2.html"},
     {"name": "Sony Ten 3", "page_url": "http://jatrapala.com/live-tv/sony-ten-3.html"},
-    {"name": "Star Sports Select HD 1", "page_url": "http://jatrapala.com/live-tv/star-select-1.html"},
-    {"name": "Star Sports Select HD 2", "page_url": "http://jatrapala.com/live-tv/star-select-2.html"},
+    {"name": "Star Sports Select HD 1", "page_url": "http://jatrapala.com/live-tv/star-sports-selected-1.html"},
+    {"name": "Star Sports Select HD 2", "page_url": "http://jatrapala.com/live-tv/star-sports-selected-2.html"},
     {"name": "Star Sports 1 HD", "page_url": "http://jatrapala.com/live-tv/star-sports-1.html"},
     {"name": "Star Sports 2 HD", "page_url": "http://jatrapala.com/live-tv/star-sports-2.html"},
     {"name": "Ten Cricket", "page_url": "http://jatrapala.com/live-tv/ten-cricket.html"}

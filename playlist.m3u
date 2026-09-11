@@ -27,6 +27,10 @@ http://jatrapala.com:8083/ATNBangla/index.m3u8?token=a4f027048ab837418ef172f3c0d
 http://jatrapala.com:8083/ATNNews/index.m3u8?token=cd082ae8a3fdf27e04a76cd4db634153b7761eff-fa0c5fcc6c91ce7f3d70375751d47fe4-1789128209-1789117409
 #EXTINF:-1,Bangla TV
 http://jatrapala.com:8083/BanglaTV/index.m3u8?token=19d2babf563bf647ab8c832a1d39a34484a33512-8136b0ced8c60f2a46e694a7fdcfc804-1789127983-1789117183
+#EXTINF:-1,Bangla Vision
+http://jatrapala.com:8083/BanglaVision/index.m3u8?token=200c563045e3f347796735256c34c77361134181-152a55c2c961df6df0fe6f19ae293376-1789128367-1789117567
+#EXTINF:-1,Boishakhi TV
+http://jatrapala.com:8083/BoishakhiTV/index.m3u8?token=35f290c13d247b62f1bbc06eac7fec99357a5fde-8ecd23f3be5e4a2fabb74cddfc95e236-1789128367-1789117567
 #EXTINF:-1,Channel 9
 http://jatrapala.com:8083/Channel9/index.m3u8?token=a38624d3039071710042ada8754cd9ef7f6e9f19-10a49b1042142058a152eedd2ae13b12-1789127983-1789117183
 #EXTINF:-1,Maasranga TV
@@ -77,9 +81,13 @@ http://jatrapala.com:8083/SonyTen1/index.m3u8?token=70d66f0a24772c1ec7e02396dc51
 http://jatrapala.com:8083/SonyTen2/index.m3u8?token=b910f6c1da1cfe014bad551b6eaec2a2fa0f1549-29c887a02c5ef665f2f2732cc1ce2a72-1789127986-1789117186
 #EXTINF:-1,Sony Ten 3
 http://jatrapala.com:8083/SonyTen3/index.m3u8?token=152f3bb781052e37ebb8b3a5100fd90fd038b658-fc2105bfe61b65a0877cf46456989281-1789127986-1789117186
+#EXTINF:-1,Star Sports Select HD 1
+http://jatrapala.com:8083/Feedget/Star-Select-Hd-1/index.m3u8?token=e1cb463524a01df52b805251089b298518d4cefa-906494e1362c4c8e6da07823de631662-1789128368-1789117568
+#EXTINF:-1,Star Sports Select HD 2
+http://jatrapala.com:8083/Feedget/Star-Select-Hd-2/index.m3u8?token=c97bc350a88e156460e01d24d434d835914f2810-db6343d0de7174c5d304be8ea5f8923c-1789128368-1789117568
 #EXTINF:-1,Star Sports 1 HD
 http://jatrapala.com:8083/StarSports1HD/index.m3u8?token=62bd0de59a8855544e1cf919b94bbcba3df6f93e-876aa308920c77b925afe660e61dd0c8-1789127986-1789117186
 #EXTINF:-1,Star Sports 2 HD
 http://jatrapala.com:8083/StarSports2HD/index.m3u8?token=9553da9a8229c5fc90babf29c3a652629f0f6767-42dc31b4dfc1b3135df415c3e31b2d0f-1789127986-1789117186
 #EXTINF:-1,Ten Cricket
-http://jatrapala.com:8083/TenCricket/index.m3u8?token=0afc53ef867b8b1ee9d7e117ca18f7abbd183f4a-923545b0e281c6ab02bf5803b7b18c49-1789127659-1789116859
+http://jatrapala.com:8083/TenCricket/index.m3u8?token=f28a0cc578beb420bbdc875bdd6168278ebc07d2-c310b30444030bbd81d4414a409ff84c-1789128369-1789117569
