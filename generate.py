@@ -1,21 +1,21 @@
 import re
 import requests
 
-# প্রতিটি চ্যানেলের সঠিক এবং পরীক্ষিত পেজ লিঙ্কের সম্পূর্ণ তালিকা
+# সঠিক ও পরীক্ষিত পেজ লিঙ্কের সম্পূর্ণ তালিকা
 channels_info = [
     {"name": "T Sports HD", "page_url": "http://jatrapala.com/live-tv/tsports.html"},
     {"name": "Somoy TV", "page_url": "http://jatrapala.com/live-tv/somoy-tv.html"},
     {"name": "Channel 24", "page_url": "http://jatrapala.com/live-tv/channel-24.html"},
-    {"name": "DBC News", "page_url": "http://jatrapala.com/live-tv/dbc-news.html"},
+    {"name": "DBC News", "page_url": "http://jatrapala.com/live-tv/dbcnews.html"},
     {"name": "Ekattor TV", "page_url": "http://jatrapala.com/live-tv/ekattor-tv.html"},
-    {"name": "Independent TV", "page_url": "http://jatrapala.com/live-tv/independent-tv.html"},
+    {"name": "Independent TV", "page_url": "http://jatrapala.com/live-tv/independenttv.html"},
     {"name": "News 24", "page_url": "http://jatrapala.com/live-tv/news-24.html"},
     {"name": "Channel I", "page_url": "http://jatrapala.com/live-tv/channel-i.html"},
     {"name": "Deepto TV", "page_url": "http://jatrapala.com/live-tv/deepto-tv.html"},
-    {"name": "Jamuna TV", "page_url": "http://jatrapala.com/live-tv/jamuna-tv.html"},
+    {"name": "Jamuna TV", "page_url": "http://jatrapala.com/live-tv/jamunatv.html"},
     {"name": "Gazi TV", "page_url": "http://jatrapala.com/live-tv/gazi-tv.html"},
     {"name": "ATN Bangla", "page_url": "http://jatrapala.com/live-tv/atn-bangla.html"},
-    {"name": "ATN News", "page_url": "http://jatrapala.com/live-tv/atn-news.html"},
+    {"name": "ATN News", "page_url": "http://jatrapala.com/live-tv/atnnews.html"},
     {"name": "Bangla TV", "page_url": "http://jatrapala.com/live-tv/bangla-tv.html"},
     {"name": "Bangla Vision", "page_url": "http://jatrapala.com/live-tv/bangla-vision.html"},
     {"name": "Boishakhi TV", "page_url": "http://jatrapala.com/live-tv/boishakhi-tv.html"},
@@ -40,7 +40,7 @@ channels_info = [
     {"name": "Animal Planet HD", "page_url": "http://jatrapala.com/live-tv/animal-planet.html"},
     {"name": "Discovery", "page_url": "http://jatrapala.com/live-tv/discovery.html"},
     {"name": "National Geographic", "page_url": "http://jatrapala.com/live-tv/national-geographic.html"},
-    {"name": "PTV Sports", "page_url": "http://jatrapala.com/live-tv/ptv-sports.html"},
+    {"name": "PTV Sports", "page_url": "http://jatrapala.com/live-tv/ptv.html"},
     {"name": "Eurosport HD", "page_url": "http://jatrapala.com/live-tv/eurosport.html"},
     {"name": "Sony Ten 1", "page_url": "http://jatrapala.com/live-tv/sony-ten-1.html"},
     {"name": "Sony Ten 2", "page_url": "http://jatrapala.com/live-tv/sony-ten-2.html"},

@@ -5,18 +5,26 @@ http://jatrapala.com:8083/TSportsHD/index.m3u8?token=b0879ca1c3364636dc37dacbb2c
 http://jatrapala.com:8083/SomoyTv/index.m3u8?token=5bf17d507c315491413ffbb0430517f618a69358-9691d9fef3af459df7e5874a83c2e5e7-1789127982-1789117182
 #EXTINF:-1,Channel 24
 http://jatrapala.com:8083/channel24/index.m3u8?token=17ae3d4013ff2284dc2effce56df17e2b4abbbed-dafc5fe7bc214662f75318627fecb39c-1789127982-1789117182
+#EXTINF:-1,DBC News
+http://jatrapala.com:8083/DBCNews/index.m3u8?token=8a0cbb84025dd5ae86e40c73fe6600e99fd9093d-c98407ab9d67c7758e2ec06d98c86873-1789128208-1789117408
 #EXTINF:-1,Ekattor TV
 http://jatrapala.com:8083/EkattorTV/index.m3u8?token=c08a1dd53e93a2b34c6b4bdad46a21bc87620376-f8277d5c3604780713da0d438d8ef721-1789127983-1789117183
+#EXTINF:-1,Independent TV
+http://jatrapala.com:8083/IndependentTV/index.m3u8?token=2a60b9e0c07dc751c35cb77a2cf0627259e6c29f-029898e76b2691eb92721d9a61ba4899-1789128208-1789117408
 #EXTINF:-1,News 24
 http://jatrapala.com:8083/News24/index.m3u8?token=240a01870582c6d78c6b5e08eab34a6c3195c4f5-071fcbde756a48e132cf6ef6e7129c98-1789127983-1789117183
 #EXTINF:-1,Channel I
 http://jatrapala.com:8083/ChannelI/index.m3u8?token=c2ba5bf9da71671cac6303c5462fd1a82b92feb4-0bde7b7b255af23c06fe976ada706cfe-1789127983-1789117183
 #EXTINF:-1,Deepto TV
 http://jatrapala.com:8083/DeeptoTV/index.m3u8?token=6c993edb9e39686ff9b9cbe3c1c8bdfeff0b1769-b2d98ac76b1fe3d49e4578f1c08b46b4-1789127983-1789117183
+#EXTINF:-1,Jamuna TV
+http://jatrapala.com:8083/JamunaTV/index.m3u8?token=14874ec8496d2b88cc3af7198b387b9fa6b0541f-ce2a181e67ffa2cdc2e1b979cd6437e3-1789128208-1789117408
 #EXTINF:-1,Gazi TV
 http://jatrapala.com:8083/GaziTV/index.m3u8?token=9f645bedad1d0ac21813e39ff15068de2dfd3088-8acea0058ed329fb2fa7feba3ed6bf57-1789127983-1789117183
 #EXTINF:-1,ATN Bangla
 http://jatrapala.com:8083/ATNBangla/index.m3u8?token=a4f027048ab837418ef172f3c0d990a70e167f66-b3357d096460a6523c8db647af0c7c72-1789127983-1789117183
+#EXTINF:-1,ATN News
+http://jatrapala.com:8083/ATNNews/index.m3u8?token=cd082ae8a3fdf27e04a76cd4db634153b7761eff-fa0c5fcc6c91ce7f3d70375751d47fe4-1789128209-1789117409
 #EXTINF:-1,Bangla TV
 http://jatrapala.com:8083/BanglaTV/index.m3u8?token=19d2babf563bf647ab8c832a1d39a34484a33512-8136b0ced8c60f2a46e694a7fdcfc804-1789127983-1789117183
 #EXTINF:-1,Channel 9
@@ -59,6 +67,8 @@ http://jatrapala.com:8083/Feedget/AnimalPlanetHD_12/index.m3u8?token=de66485ad3e
 http://jatrapala.com:8083/Feedget/Discovery/index.m3u8?token=b4cd504c310c41518ca7319659c3b164e8b8990d-9445744f3389edb5f6005974c889b621-1789127985-1789117185
 #EXTINF:-1,National Geographic
 http://jatrapala.com:8083/Feedget/National-Geography/index.m3u8?token=f63b7c50cebb840728939d97fd833dda487e63dc-d3cce62cfd2e9e9bf848614e219165ef-1789127985-1789117185
+#EXTINF:-1,PTV Sports
+http://jatrapala.com:8083/Feedget/ptv_pk/index.m3u8?token=bf4a8299e86dbc3903d0a0260203a7496edf1098-23a50c64a62c17d708eb141f708002e4-1789128210-1789117410
 #EXTINF:-1,Eurosport HD
 http://jatrapala.com:8083/Feedget/EurosportHD_17/index.m3u8?token=d550440d24771ae552c192348ec32823dfbae564-d0225d0fc284dd7506cd5c5ce443e1a0-1789127985-1789117185
 #EXTINF:-1,Sony Ten 1
