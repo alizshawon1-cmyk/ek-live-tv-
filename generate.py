@@ -1,9 +1,8 @@
 import re
 import requests
 
-# সকল চ্যানেলের সম্মিলিত তালিকা (সবগুলোর সাথেই page_url দেওয়া হয়েছে যাতে অটো-ফেচ হতে পারে)
+# সব চ্যানেলের একদম নিখুঁত এবং পরীক্ষিত পেজ লিঙ্কের চূড়ান্ত তালিকা
 channels_info = [
-    # Jatrapala চ্যানেলসমূহ
     {"name": "T Sports HD", "page_url": "http://jatrapala.com/live-tv/tsports.html"},
     {"name": "Somoy TV", "page_url": "http://jatrapala.com/live-tv/somoy-tv.html"},
     {"name": "Jamuna TV", "page_url": "http://jatrapala.com/live-tv/jamunatv.html"},
@@ -26,24 +25,10 @@ channels_info = [
     {"name": "Maasranga TV", "page_url": "http://jatrapala.com/live-tv/maasranga.html"},
     {"name": "SA TV", "page_url": "http://jatrapala.com/live-tv/satv.html"},
     {"name": "Gazi TV", "page_url": "http://jatrapala.com/live-tv/gazi-tv.html"},
-    
-    # লোকাল সার্ভার চ্যানেলসমূহ (play.php পেজের লিংক)
-    {"name": "Duronto TV", "page_url": "http://172.19.178.180/play.php?id=3668684838"},
-    {"name": "Ruposhi Bangla", "page_url": "http://172.19.178.180/play.php?id=6416654447"},
-    {"name": "Movie Bangla TV", "page_url": "http://172.19.178.180/play.php?id=9799573742"},
-    
-    # Jatrapala চ্যানেলসমূহ
     {"name": "Channel 9", "page_url": "http://jatrapala.com/live-tv/channel-9.html"},
+    {"name": "Enterr10 Bangla", "page_url": "http://jatrapala.com/live-tv/enterr10.html"},
     {"name": "Colors Bangla", "page_url": "http://jatrapala.com/live-tv/colors-bangla.html"},
     {"name": "Zee Bangla", "page_url": "http://jatrapala.com/live-tv/zee-bangla.html"},
-    
-    # লোকাল সার্ভার চ্যানেলসমূহ
-    {"name": "Jalsha Movies HD", "page_url": "http://172.19.178.180/play.php?id=3372594744"},
-    {"name": "Zee Bangla Cinema", "page_url": "http://172.19.178.180/play.php?id=8012094529"},
-    {"name": "Colors Bangla Cinema", "page_url": "http://172.19.178.180/play.php?id=9872082878"},
-    
-    # Jatrapala চ্যানেলসমূহ
-    {"name": "Enterr10 Bangla", "page_url": "http://jatrapala.com/live-tv/enterr10.html"},
     {"name": "Star Jalsha HD", "page_url": "http://jatrapala.com/live-tv/star-jalsha.html"},
     {"name": "Star Gold", "page_url": "http://jatrapala.com/live-tv/star-gold.html"},
     {"name": "Sony MAX", "page_url": "http://jatrapala.com/live-tv/sony-max.html"},
@@ -67,16 +52,7 @@ channels_info = [
     {"name": "Star Sports Select HD 2", "page_url": "http://jatrapala.com/live-tv/star-sports-selected-2.html"},
     {"name": "Star Sports 1 HD", "page_url": "http://jatrapala.com/live-tv/star-sports-1.html"},
     {"name": "Star Sports 2 HD", "page_url": "http://jatrapala.com/live-tv/star-sports-2.html"},
-    
-    # লোকাল সার্ভার চ্যানেলসমূহ
-    {"name": "Star Sports 3", "page_url": "http://172.19.178.180/play.php?id=1717823063"},
-    
-    # Jatrapala চ্যানেলসমূহ
-    {"name": "Ten Cricket", "page_url": "http://jatrapala.com/live-tv/ten-cricket.html"},
-    
-    # লোকাল সার্ভার চ্যানেলসমূহ
-    {"name": "A Sports", "page_url": "http://172.19.178.180/play.php?id=4960725297"},
-    {"name": "Ten Cricket (Local)", "page_url": "http://172.19.178.180/play.php?id=5079856223"}
+    {"name": "Ten Cricket", "page_url": "http://jatrapala.com/live-tv/ten-cricket.html"}
 ]
 
 headers = {
@@ -90,7 +66,6 @@ for ch in channels_info:
     try:
         response = requests.get(ch["page_url"], headers=headers, timeout=10)
         if response.status_code == 200:
-            # রেগুলার এক্সপ্রেশন দিয়ে .m3u8 বা fmp4 লিংক খোঁজা
             match = re.search(r'(http[^\s\'\"<>]+?\.m3u8[^\s\'\"<>]*)', response.text)
             if match:
                 stream_url = match.group(1).replace(" ?token=", "?token=")
@@ -109,3 +84,8 @@ with open("playlist.m3u", "w", encoding="utf-8") as f:
     f.write(playlist_content)
 
 print(f"\nDone! Successfully auto-fetched {success_count} channels.")
+
+
+
+
+
