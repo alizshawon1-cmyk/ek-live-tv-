@@ -1,12 +1,12 @@
-name: Auto Update IPTV Tokens
+name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # প্রতি ৬ ঘণ্টা পরপর নিজে থেকেই রান হবে
-  workflow_dispatch: # হাত দিয়ে ম্যানুয়ালি রান করার অপশনও থাকবে
+    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর পর নিজে থেকে টোকেন আপডেট হবে
+  workflow_dispatch:
 
 jobs:
-  update-tokens:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -17,18 +17,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          pip install requests
+      - name: Run generator script
+        run: python generate.py
 
-      - name: Run script
+      - name: Commit and push if playlist changed
         run: |
-          python generate.py
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Action Bot"
+          git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add playlist.m3u
-          git commit -m "Auto-update streaming tokens via GitHub Actions" || echo "No changes to commit"
+          git commit -m "Auto-update m3u playlist tokens" || exit 0
           git push
