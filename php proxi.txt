@@ -1,0 +1,34 @@
+export default {
+  async fetch(request, env, ctx) {
+    const targetBaseUrl = "https://tv3.henexukel330.workers.dev/ts?ep=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODg3MTU4NDl9fX1dfQ&es=QBWJ1jwiUELJO~lKYCM2vEiYhmjrglrinbhWTJ0C3N4&url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1704%2Foutput%2F1704-audio_113342_eng%3D113200-video%3D1692000.m3u8";
+    const url = new URL(request.url);
+    let targetUrl = targetBaseUrl;
+
+    // যদি প্লেয়ার সাব-ফাইল বা সেগমেন্টের জন্য রিকোয়েস্ট করে
+    if (url.pathname.length > 1) {
+      const baseUrlObj = new URL(targetBaseUrl);
+      targetUrl = `${baseUrlObj.origin}${url.pathname}${url.search}`;
+    }
+
+    const newRequest = new Request(targetUrl, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://mycoffeetime.net/"
+      },
+      method: request.method,
+      redirect: "follow"
+    });
+
+    try {
+      const response = await fetch(newRequest);
+      const newResponse = new Response(response.body, response);
+      
+      newResponse.headers.set("Access-Control-Allow-Origin", "*");
+      newResponse.headers.set("Content-Type", "application/vnd.apple.mpegurl");
+
+      return newResponse;
+    } catch (e) {
+      return new Response("Stream Proxy Error", { status: 500 });
+    }
+  }
+};
