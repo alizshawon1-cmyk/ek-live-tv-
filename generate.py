@@ -1,7 +1,7 @@
 import re
 import requests
 
-# সকল চ্যানেলের সম্মিলিত তালিকা (আপনার দেওয়া হুবহু সিকোয়েন্স অনুযায়ী)
+# সকল চ্যানেলের সম্মিলিত তালিকা (সবগুলোর সাথেই page_url দেওয়া হয়েছে যাতে অটো-ফেচ হতে পারে)
 channels_info = [
     # Jatrapala চ্যানেলসমূহ
     {"name": "T Sports HD", "page_url": "http://jatrapala.com/live-tv/tsports.html"},
@@ -27,7 +27,7 @@ channels_info = [
     {"name": "SA TV", "page_url": "http://jatrapala.com/live-tv/satv.html"},
     {"name": "Gazi TV", "page_url": "http://jatrapala.com/live-tv/gazi-tv.html"},
     
-    # লোকাল সার্ভার চ্যানেলসমূহ
+    # লোকাল সার্ভার চ্যানেলসমূহ (play.php পেজের লিংক)
     {"name": "Duronto TV", "page_url": "http://172.19.178.180/play.php?id=3668684838"},
     {"name": "Ruposhi Bangla", "page_url": "http://172.19.178.180/play.php?id=6416654447"},
     {"name": "Movie Bangla TV", "page_url": "http://172.19.178.180/play.php?id=9799573742"},
@@ -90,6 +90,7 @@ for ch in channels_info:
     try:
         response = requests.get(ch["page_url"], headers=headers, timeout=10)
         if response.status_code == 200:
+            # রেগুলার এক্সপ্রেশন দিয়ে .m3u8 বা fmp4 লিংক খোঁজা
             match = re.search(r'(http[^\s\'\"<>]+?\.m3u8[^\s\'\"<>]*)', response.text)
             if match:
                 stream_url = match.group(1).replace(" ?token=", "?token=")
