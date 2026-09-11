@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1,T Sports HD
-http://jatrapala.com:8083/TSportsHD/tracks-v1a1/mono.m3u8?token=922204e7907de7918e09e1624fb5b3756470b882-ec0736a47d03c5ce57f86a7c78998eca-1789118619-1789107819
-#EXTINF:-1,PTV Sports
-http://jatrapala.com:8083/Feedget/ptv_pk/tracks-v1a1/mono.m3u8?token=3d6db28d8df71974e569da60f4014cb3ffc9ce41-bf8d775cdd7710756b1bc906d813c501-1789118631-1789107831
-#EXTINF:-1,Somoy TV
-http://jatrapala.com:8083/SomoyTv/tracks-v1a1/mono.m3u8?token=5f59fabad42255e99e6918b8f08a5d3323038571-f32ba96e0d3ce727aaaf3ce2bd3d95f4-1789118489-1789107689
-#EXTINF:-1,Gazi TV
-http://jatrapala.com:8083/GaziTV/tracks-v1a1/mono.m3u8?token=d1e211a2b1a308619af8eb0283268ba224a5b130-2991b405747cbb3857570d69ae231f03-1789118657-1789107857
-#EXTINF:-1,Nagorik TV
-http://jatrapala.com:8083/NagorikTV/tracks-v1a1/mono.m3u8?token=46115faef5eaff9543ff8c098fa21a889b2be5b1-94ccb9766c521ab58f35bca9e6cb9034-1789118669-1789107869
+#EXTINF:-1,Deepto TV
+http://jatrapala.com:8083/DeeptoTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Channel I
-http://jatrapala.com:8083/ChannelI/tracks-v1a1/mono.m3u8?token=d726c980f00c7ef36285f3fa129b47efe375a75b-4c910e333328662e7d6d393dee4c9bbc-1789118681-1789107881
-#EXTINF:-1,Bangla TV
-http://jatrapala.com:8083/BanglaTV/tracks-v1a1/mono.m3u8?token=1f170a5627e604f17f7214564961ffa221583426-47de5ea6d9e4b4ab3b053f1d4c93936f-1789118701-1789107901
+http://jatrapala.com:8083/ChannelI/tracks-v1a1/mono.m3u8
+#EXTINF:-1,News 24
+http://jatrapala.com:8083/News24/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Independent TV
+http://jatrapala.com:8083/IndependentTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Ekattor TV
+http://jatrapala.com:8083/EkattorTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1,DBC News
+http://jatrapala.com:8083/DBCNews/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Channel 24
+http://jatrapala.com:8083/channel24/tracks-v1a1/mono.m3u8
