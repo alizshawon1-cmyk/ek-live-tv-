@@ -1,1 +1,75 @@
 #EXTM3U
+#EXTINF:-1,T Sports HD
+http://jatrapala.com:8083/TSportsHD/index.m3u8?token=b0879ca1c3364636dc37dacbb2c63143710490db-22cf1b50f943f0aeacb3ddc680c16eef-1789127947-1789117147
+#EXTINF:-1,Somoy TV
+http://jatrapala.com:8083/SomoyTv/index.m3u8?token=d23497c56b70689fcb3cd422ba57ff69b2e17953-c9707f615436c1a2e3be132b0a38f193-1789127349-1789116549
+#EXTINF:-1,Channel 24
+http://jatrapala.com:8083/channel24/index.m3u8?token=085050e833c6dd70c3f84eeb0a10ee2e68203f44-817a6c394c0ad32d45f6b6d30ee4023a-1789127349-1789116549
+#EXTINF:-1,Ekattor TV
+http://jatrapala.com:8083/EkattorTV/index.m3u8?token=82bd115e9ff0d1fa8bfc28b6a7832ed1404d5194-4018f6b9d17a699dcfff4b7d541e388c-1789127350-1789116550
+#EXTINF:-1,News 24
+http://jatrapala.com:8083/News24/index.m3u8?token=8dbae4235f0fcc5346d1b71f6a4a17cf648d9284-9ca9f502a01e90afc86dc6e86546ef7e-1789127350-1789116550
+#EXTINF:-1,Channel I
+http://jatrapala.com:8083/ChannelI/index.m3u8?token=be66b872270476d4ef46563d0d2d97c3f8707b63-11b84d281c5bafd66603437329a08598-1789127350-1789116550
+#EXTINF:-1,Deepto TV
+http://jatrapala.com:8083/DeeptoTV/index.m3u8?token=01847e8531ea0a797c25067486a2bdabab3f2667-3447f8ff370fb7a502bfc372e79ba9e8-1789127350-1789116550
+#EXTINF:-1,Gazi TV
+http://jatrapala.com:8083/GaziTV/index.m3u8?token=c88ad5319f0b9fd4db6ebc726346184ce81e2025-0f1c7c1bce73f1869c1b9bfd77d281d4-1789127349-1789116549
+#EXTINF:-1,ATN Bangla
+http://jatrapala.com:8083/ATNBangla/index.m3u8?token=8e2a7337789327e1fbcc80ddc609df8ae495c4dc-fa52ac08cb7ff10cf476bdf6bfab3f92-1789127350-1789116550
+#EXTINF:-1,Bangla TV
+http://jatrapala.com:8083/BanglaTV/index.m3u8?token=0ca2bb76d6500414d2883b6f1dfc0f6412df9e69-776494143d33e3418ef91bb4cb2d7ebb-1789127350-1789116550
+#EXTINF:-1,Channel 9
+http://jatrapala.com:8083/Channel9/index.m3u8?token=10e0b66890a5bb4b43491e41cecb081e5dd666d5-281c08965d87d65afeb21dba42e52515-1789127350-1789116550
+#EXTINF:-1,Maasranga TV
+http://jatrapala.com:8083/Maasranga/index.m3u8?token=a5a9b8607de4a9ce388ba72ad7099214cbd1957a-0aecc57a65f15878bf05bee6e3286e01-1789127350-1789116550
+#EXTINF:-1,NTV
+http://jatrapala.com:8083/NTV/index.m3u8?token=f3c18991357fb73cb5e228777adf2ebd3ddc7d98-340951a38e4c9241dba518f8526840cc-1789127351-1789116551
+#EXTINF:-1,RTV
+http://jatrapala.com:8083/Feedget/rtv_nk_34/index.m3u8?token=f5bd92400272a4beeb879ee86887f2484ffde883-7384773a7cc146b7ae43818580e4c8df-1789127351-1789116551
+#EXTINF:-1,Ekushey TV
+http://jatrapala.com:8083/ETV/index.m3u8?token=045b313e8ab220dc9368e8730df2131948c1aa03-06a185dbd83c217f010061fdec7538b6-1789127351-1789116551
+#EXTINF:-1,SA TV
+http://jatrapala.com:8083/SATV/index.m3u8?token=d4446e2612ed4850ebc8c49ae0d6f4c38e4989c5-610c8ba74711cc4e1250527a4099af0a-1789127351-1789116551
+#EXTINF:-1,Colors Bangla
+http://jatrapala.com:8083/colors-bangla/index.m3u8?token=fb12ba05678393ecfc628fa4ba333e2ad4609e8c-ac39c9b47865c0a4ecc27d863039b7fb-1789127351-1789116551
+#EXTINF:-1,Zee Bangla
+http://jatrapala.com:8083/Feedget/ZeeBangla_8/index.m3u8?token=4b2d0c8c888d810e97c10b2e06fcbd4258e82e6d-95c95b4642fe779cd4408e240fccaa06-1789127351-1789116551
+#EXTINF:-1,Star Jalsha HD
+http://jatrapala.com:8083/StarJalshaHD/index.m3u8?token=a47aaea805032d8aa24417bf4301f9d2d9eb77ca-81c25ac0c610fd9ab496db666f0163b0-1789127351-1789116551
+#EXTINF:-1,Star Movies
+http://jatrapala.com:8083/Feedget/Star-Movies/index.m3u8?token=95923e0d9def4a20329c4e99af3b4804a6246947-b293c21876b3d44f18f032faa6b97f25-1789127351-1789116551
+#EXTINF:-1,Star Gold
+http://jatrapala.com:8083/Star-Gold/index.m3u8?token=747eedfe903a86e25b613d145bda5d949764c11d-7885e392f7ea08533ea2a9e7d7063007-1789127351-1789116551
+#EXTINF:-1,Sony MAX
+http://jatrapala.com:8083/Feedget/SonyMAX_37/index.m3u8?token=c71fd68aa205111c8624e3126cd9b37055ed87cb-e06e32e51efee5b1fde6d97b969b9b10-1789127351-1789116551
+#EXTINF:-1,Zee Cinema HD
+http://jatrapala.com:8083/Feedget/ZeeCinemaHD_38/index.m3u8?token=cb68ce0a132d5120578084c386eef8e3ec82ebf6-a90b0bcf42d0182e35a251843c0b31a6-1789127352-1789116552
+#EXTINF:-1,Sony PIX HD
+http://jatrapala.com:8083/Feedget/SonyPIXHD/index.m3u8?token=a9ffc1e1037597e287527824109aadbb72f27efa-cc9c223c8eb25d4286d9bbb1d974abc2-1789127352-1789116552
+#EXTINF:-1,Sony Entertainment TV HD
+http://jatrapala.com:8083/Feedget/SonyEntertainmentTelevisionHD_9/index.m3u8?token=9b654266b7bb32abe90af852fd9b8150e8049dac-fd6f1dfba58d4d96aa4273b4c162c519-1789127352-1789116552
+#EXTINF:-1,Makkah Live
+http://jatrapala.com:8083/Feedget/MakkahLive_21/index.m3u8?token=8d4e548d679fd4f2901131d7bd433e0a725ffdad-00cafbcb3ea6638ce8e4dbf4bbc9f761-1789127352-1789116552
+#EXTINF:-1,Cartoon Network
+http://jatrapala.com:8083/Feedget/CartoonNetwork_6/index.m3u8?token=8fab8d5ea978369c8c9a90d62fa1114529c73c5c-34d990aac00b661c31f02f493472ba53-1789127352-1789116552
+#EXTINF:-1,Animal Planet HD
+http://jatrapala.com:8083/Feedget/AnimalPlanetHD_12/index.m3u8?token=dc82cac894b035c71d03b41f8c210c1a3ef7913f-522379482db194cdc2fb682d5352c1ee-1789127352-1789116552
+#EXTINF:-1,Discovery
+http://jatrapala.com:8083/Feedget/Discovery/index.m3u8?token=5e7f0a04915ed1d361e5ba34e2622ae145824425-b98e1d8342a5797da56c3b36abb4ffed-1789127352-1789116552
+#EXTINF:-1,National Geographic
+http://jatrapala.com:8083/Feedget/National-Geography/index.m3u8?token=ba5b6a9161661e23b6a3e48819749d0296ab7d7a-beba7bbaa12f48a0243dbd84f1a44af7-1789127352-1789116552
+#EXTINF:-1,Eurosport HD
+http://jatrapala.com:8083/Feedget/EurosportHD_17/index.m3u8?token=9e9e15eaae68ff49762560946f04b7a1d0a8d747-9429fb16cb5e849885ea16ed1aad7fd2-1789127352-1789116552
+#EXTINF:-1,Sony Ten 1
+http://jatrapala.com:8083/SonyTen1/index.m3u8?token=992e52f286f44a48d0c1b7d90b6ae3725bb3b2de-bc5bcd3229e939391ad21cc8728d2133-1789127352-1789116552
+#EXTINF:-1,Sony Ten 2
+http://jatrapala.com:8083/SonyTen2/index.m3u8?token=768904e30f4c2addb9e81b04f26c91808e2b8469-e73b4e26958a216485fbde75ebe07fe4-1789127353-1789116553
+#EXTINF:-1,Sony Ten 3
+http://jatrapala.com:8083/SonyTen3/index.m3u8?token=2783ebb0f4606170b312ffea3bbc439cc85205b3-af02360af9d0c954d6df8eb8b0817954-1789127353-1789116553
+#EXTINF:-1,Star Sports 1 HD
+http://jatrapala.com:8083/StarSports1HD/index.m3u8?token=7c788873e6230858d80604a009b9fe6d6dc7807f-8d428b6b7fa90bb047b01b90b498fdf4-1789127353-1789116553
+#EXTINF:-1,Star Sports 2 HD
+http://jatrapala.com:8083/StarSports2HD/index.m3u8?token=62791619ba8be37e33e73b2175c3613999af9dd9-8cfe0ba4bc972014afd61d184c042cd9-1789127353-1789116553
+#EXTINF:-1,Ten Cricket
+http://jatrapala.com:8083/TenCricket/index.m3u8?token=0afc53ef867b8b1ee9d7e117ca18f7abbd183f4a-923545b0e281c6ab02bf5803b7b18c49-1789127659-1789116859
